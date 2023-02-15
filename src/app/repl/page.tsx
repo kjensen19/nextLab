@@ -1,7 +1,13 @@
 export default function Page() {
+  // type startRepl = (x: string) => void;
+  // function repl(fn: startRepl) {
+  //   //...
+  // }
+  function startRepl(str: string){
+    return "replicated"
+  }
 
 
-  
     return (
       <div className="flex flex-col w-60 align-middle justify-center place-items-center gap-6">
         <h1 className="text-white" >Hello, replicant</h1>
