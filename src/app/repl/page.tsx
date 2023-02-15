@@ -1,4 +1,7 @@
 export default function Page() {
+
+
+  
     return (
       <div className="flex flex-col w-60 align-middle justify-center place-items-center gap-6">
         <h1 className="text-white" >Hello, replicant</h1>
