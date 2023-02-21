@@ -1,16 +1,25 @@
+import { MouseEvent } from "react";
+
 export default function Page() {
   // type startRepl = (x: string) => void;
   // function repl(fn: startRepl) {
   //   //...
   // }
+  // Need to add a while loop to activate the board
+  // Handling for the data
+  // print output
 
-    const buttonHandler = (event: React.MouseEvent<HTMLButtonElement>) => {
+  // const handleEmailChange = (event: ChangeEvent<HTMLInputElement>) => {
+  //   setEmail(event.target.value);
+  // };
+
+    const buttonHandler = (event: MouseEvent<HTMLButtonElement>):void => {
       event.preventDefault();
-
-      const button: HTMLButtonElement = event.currentTarget;
+      console.log('is this working?')
+      // const button: HTMLButtonElement = event.currentTarget;
     
   };
-  function startRepl(str: string){
+  function startRepl(str: string): string{
     return "replicated"
   }
 
